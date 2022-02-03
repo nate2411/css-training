@@ -1,0 +1,61 @@
+/* h2:hover {
+    color: red;
+} */
+
+/* .about-me{
+    color: blue;
+} */
+
+li:first-child{
+    color: blue;
+}
+
+li:nth-child(3){
+   color: green; 
+}
+
+
+li:nth-child(2){
+    color: indigo;
+}
+
+/* #google-link:link{
+color:blue
+}
+
+#google-link:visited{
+color:brown
+} */
+
+h2 + a {
+    color: red;
+}
+
+textarea ~ button{
+    color: red;
+}
+
+ul > li{
+    color: rgb(202, 18, 18);
+}
+
+
+h2[class=subtitle]{
+    color: green;
+}
+
+/* img[src^="../img/"]{
+border: 10px solid red;
+}
+
+img[src$="../img/"]{
+    border: 10px solid red;
+    } */
+
+    img[src*="../img/"]{
+        border: 10px solid green;
+        }    
+
+h2[class~= article-subtitle]{
+    background-color: green;
+}        

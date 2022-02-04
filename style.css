@@ -57,5 +57,38 @@ img[src$="../img/"]{
         }    
 
 h2[class~= article-subtitle]{
-    background-color: green;
-}        
+    background-color: grey;
+}       
+
+.title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:steelblue;
+   background: linear-gradient(to right, black ,white );
+  
+}
+
+body{
+    background:url(https://media.comicbook.com/2021/07/dragon-ball-super-new-super-hero-movie-goku-toei-animation-1276890.jpeg?auto=webp);
+  background-size: cover ;
+  background-repeat: no-repeat;
+
+}
+
+.img-1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    
+}
+
+.two{
+text-decoration: none;  
+text-transform: capitalize; 
+text-align: center;
+font-weight: bolder;
+/* font-style: italic; */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
